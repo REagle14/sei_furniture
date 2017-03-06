@@ -1,0 +1,53 @@
+//Name: Products Styles
+//Author: Ryan Eagle
+//Dependencies: None
+
+
+.products-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.products h4 {
+    color: $red;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.products-container {
+    border-top: 1px #efefef solid;
+    margin-bottom: 30px;
+}
+
+.navigation a,
+.back-to-top a {
+    color: $red;
+    text-decoration: none;
+    transition: ease .3s;
+
+    &:hover {
+        color:$ltGrey;
+    }
+}
+.back-to-top {
+    font-size: .9em;
+    margin-top: 20px;
+}
+
+.manufacturer img {
+    margin: 0;
+    padding: 10px;
+    opacity: 1;
+	-webkit-transition: .3s ease;
+	transition: .3s ease;
+}
+.manufacturer img:hover {
+    opacity: .5;
+}
+
+@media(min-width:767px) {
+    #products-modal .modal-item {
+        margin: 0 0 30px;
+    }
+}
